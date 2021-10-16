@@ -1,0 +1,167 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Celulares</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">  
+    <link rel="stylesheet" href="css/bootnavbar.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+    <header style="background-color: white;">
+        <div class="cabecera"></div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar" >
+                <img class="navbar-brand" href="#" src="logo.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cuenta</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Marcas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li></li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li class="nav-item dropdown">
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            Modelos
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <div class="dropdown-divider"></div>
+                                            <li></li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li class="nav-item dropdown">
+                                                    <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <div class="dropdown-divider"></div>
+                                                        <li></li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                                </li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="flexslider">
+                    <ul class="slides">
+            
+                        <li>
+                            <img src="imagenes/cel.jpg" alt="">
+                            <section class="caption">
+                                
+                            </section>
+                        </li>
+            
+                        <li>
+                            <img src="imagenes/promocion.jpg" alt="">
+                            <section class="caption">
+                                
+                            </section>
+                        </li>
+            
+                        <li>
+                            <img src="imagenes/promo.png" alt="">
+                            <section class="caption">
+                                
+                            </section>
+                        </li>
+            
+                    </ul>
+                </div>
+    </header>
+
+    <div class="main">
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+            <div class="productosmain">
+           <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>     
+        </div>
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+        <div class="productosmain">
+            <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>
+        </div>
+            <div class="productosmain">
+        <img src="imagenes/logo.png" width="100%" alt="celular">
+            <div class="precio">PRECIO</div>        
+        </div>
+        <div class="limpiar"></div>
+    </div>
+
+<footer><p>Todos los derechos reservadoss</p></footer>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    
+    <script src="js/bootnavbar.js" ></script>
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar();
+        })
+    </script>
+<script src="js/bootnavbar.js" ></script>
+</body>
+</html>

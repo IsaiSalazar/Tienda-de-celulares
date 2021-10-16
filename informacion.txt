@@ -1,0 +1,8 @@
+Nombre:Isai Salazar Rodriguez
+Programa Educativo: Ingeniero en Computacion
+Generacion: 2015
+Semestre 7
+Fecha de inicio 8 de Noviembre del 2019
+Fecha de termino 6 de Diciembre del 2019
+UsrBD root PwdBD ""
+UsrAdmin admin PwdAdmin 123
